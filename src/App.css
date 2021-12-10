@@ -13,15 +13,112 @@
   }
 }
 
+.App-header-outer {
+  border: 1px outset #282c3450;
+}
+
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.App-header-container {
+  width: 50%;
+  height: 100px;
+}
+
+.App-header-text {
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size:50px;
+  height: 76px;
+  margin: 12px auto;
+  position: relative;
+}
+
+
+App-header-img {
+  width: 50%;
+  height: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 12px auto;
+}
+
+.App-menu {
+  background-color: #282c34;
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-menu-text {
+   width: 20%;
+   padding-left: 10px;
+   padding-right: 10px;
+   font-size:40px;
+   height: 40px;
+   margin: auto;
+ }
+
+.App-header-text:hover {
+  background-color: #280c30;
+}
+
+.App-header-menu:hover {
+  background-color: #280c30;
+}
+
+.App-header-text text {
+  background: linear-gradient(45deg, #0D61BC 20% , #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.App-menu-text text {
+  background: linear-gradient(45deg, #0D61BC 20% , #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Cards-Container {
+  width: 50%;
+  position: relative;
+  left:+25%;
+}
+
+.Card {
+  border-bottom: 1px outset #282c3450;
+  border-top: 1px outset #282c3450;
+  border-left: 2px outset #282c3450;
+  border-right: 2px outset #282c3450;
+  min-height: 120px;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+.Card-text {
+  margin: 0px 20px;
+}
+
+.Images-Container {
+  width: 50%;
+  border: 1px outset #282c3450;
+}
+
+.Containers {
+  display: flex;
+  width: 100%;
+  height: auto;
 }
 
 .App-link {
