@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bot-website/static/css/main.dafda61e.chunk.css",
+    "main.css": "/bot-website/static/css/main.bc673ffb.chunk.css",
     "main.js": "/bot-website/static/js/main.1b3256dc.chunk.js",
     "main.js.map": "/bot-website/static/js/main.1b3256dc.chunk.js.map",
     "runtime-main.js": "/bot-website/static/js/runtime-main.3bfd9dea.js",
@@ -10,14 +10,14 @@
     "static/js/3.0cbb04e9.chunk.js": "/bot-website/static/js/3.0cbb04e9.chunk.js",
     "static/js/3.0cbb04e9.chunk.js.map": "/bot-website/static/js/3.0cbb04e9.chunk.js.map",
     "index.html": "/bot-website/index.html",
-    "static/css/main.dafda61e.chunk.css.map": "/bot-website/static/css/main.dafda61e.chunk.css.map",
+    "static/css/main.bc673ffb.chunk.css.map": "/bot-website/static/css/main.bc673ffb.chunk.css.map",
     "static/js/2.930ab0bb.chunk.js.LICENSE.txt": "/bot-website/static/js/2.930ab0bb.chunk.js.LICENSE.txt",
     "static/media/logo.a108c29f.png": "/bot-website/static/media/logo.a108c29f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3bfd9dea.js",
     "static/js/2.930ab0bb.chunk.js",
-    "static/css/main.dafda61e.chunk.css",
+    "static/css/main.bc673ffb.chunk.css",
     "static/js/main.1b3256dc.chunk.js"
   ]
 }
