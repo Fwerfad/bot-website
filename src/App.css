@@ -3,7 +3,6 @@
   background-color: #282c34;
   font-family: sans-serif, Geneva, Arial, Helvetica ;
   min-height: calc(100vh - 80px);
-  padding-bottom: 90px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

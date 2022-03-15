@@ -1,15 +1,9 @@
 import './App.css';
 import logo from "./images/logo.png"
-import im2 from "./images/2.png"
-import im3 from "./images/3.png"
-import im4 from "./images/4.png"
-import im5 from "./images/5.png"
-import im6 from "./images/6.png"
-import {CCarousel, CCarouselCaption, CCarouselItem, CImage} from '@coreui/react'
 import '@coreui/coreui/dist/css/coreui.min.css'
 
-import second from "./images/7.jpg"
 import Footer from 'rc-footer';
+import {CarouselElem} from "./components/Carousel";
 
 
 function App() {
@@ -49,47 +43,7 @@ function App() {
                 <div className="App-menu-text"></div>
             </header>
         </div>
-        <div>
-            <CCarousel controls indicators>
-                <CCarouselItem>
-                    <CImage className="d-inline-block w-50" src={im2} alt="slide 1" />
-                    <CCarouselCaption className="d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </CCarouselCaption>
-                </CCarouselItem>
-                <CCarouselItem>
-                    <CImage className="d-inline-block w-50" src={im3} alt="slide 2" />
-                    <CCarouselCaption className="d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </CCarouselCaption>
-                </CCarouselItem>
-                <CCarouselItem>
-                    <CImage className="d-inline-block w-50" src={im4} alt="slide 3" />
-                    <CCarouselCaption className="d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </CCarouselCaption>
-                </CCarouselItem>
-
-                <CCarouselItem>
-                    <CImage className="d-inline-block w-50" src={im5} alt="slide 3" />
-                    <CCarouselCaption className="d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </CCarouselCaption>
-                </CCarouselItem>
-
-                <CCarouselItem>
-                    <CImage className="d-inline-block w-50" src={im6} alt="slide 3" />
-                    <CCarouselCaption className="d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </CCarouselCaption>
-                </CCarouselItem>
-            </CCarousel>
-        </div>
+        {CarouselElem()}
         <div className="Containers">
             <div className="Cards-Container">
                 <div className="Card">
