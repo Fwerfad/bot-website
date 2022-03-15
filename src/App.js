@@ -8,6 +8,9 @@ import im6 from "./images/6.png"
 import {CCarousel, CCarouselCaption, CCarouselItem, CImage} from '@coreui/react'
 import '@coreui/coreui/dist/css/coreui.min.css'
 
+import second from "./images/7.jpg"
+import Footer from 'rc-footer';
+
 
 function App() {
 
@@ -119,9 +122,20 @@ function App() {
                 </div>
             </div>
         </div>
-        <div className="Footer">
-
-        </div>
+        <Footer
+            columns={[
+                {
+                    icon: (
+                        <img src="https://gw.alipayobjects.com/zos/rmsportal/XuVpGqBFxXplzvLjJBZB.svg" />
+                    ),
+                    title: '语雀',
+                    url: 'https://yuque.com',
+                    description: '知识创作与分享工具',
+                    openExternal: true,
+                },
+            ]}
+            bottom="Не является финансовой рекомендацией"
+        />
     </div>
   );
 }
