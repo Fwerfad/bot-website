@@ -1,10 +1,9 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-color: #282c34;
+  font-family: sans-serif, Geneva, Arial, Helvetica ;
+  min-height: calc(100vh - 80px);
+  padding-bottom: 90px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -44,8 +43,6 @@
 
 
 App-header-img {
-  width: 50%;
-  height: 100px;
   padding-left: 10px;
   padding-right: 10px;
   margin: 12px auto;
@@ -65,8 +62,8 @@ App-header-img {
    width: 20%;
    padding-left: 10px;
    padding-right: 10px;
-   font-size:40px;
-   height: 40px;
+   font-size:30px;
+   height: 53px;
    margin: auto;
  }
 
@@ -91,9 +88,9 @@ App-header-img {
 }
 
 .Cards-Container {
-  width: 50%;
+  width: 75%;
   position: relative;
-  left:+25%;
+  left:12.5%;
 }
 
 .Card {
@@ -104,6 +101,8 @@ App-header-img {
   min-height: 120px;
   text-align: justify;
   text-indent: 20px;
+  color: white;
+  font-size:20px;
 }
 
 .Card-text {
@@ -125,11 +124,12 @@ App-header-img {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Footer {
+  height: 80px;
 }
+
+.Carousel {
+  position:relative;
+  left:25%;
+}
+

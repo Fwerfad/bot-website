@@ -1,9 +1,11 @@
 {
-  "homepage": "http://Fwerfad.github.io/react-gh-pages",
-  "name": "react-gh-pages",
+  "homepage": "http://Fwerfad.github.io/bot-website",
+  "name": "bot-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@coreui/coreui": "^4.1.0",
+    "@coreui/react": "^4.1.1",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
